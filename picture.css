@@ -2,7 +2,7 @@
     float:left;
 }
 canvas{
-    margin-top:100px;
+    margin-top:150px;
     border: 2px dashed red;
     border-radius:12px;
     box-shadow:5px 10px 10px gray;
@@ -10,4 +10,10 @@ canvas{
 body{
     background-size: cover;
     background-position:center;
+}
+.top {
+    margin-bottom:0px;
+}
+#mhm{
+    margin-right:150px;
 }

@@ -3,7 +3,7 @@ function NewTab() {
   }
   
   function NewTab1() {
-    window.location="picture.html";
+    window.location="filter.html";
   }
 
   video="";
