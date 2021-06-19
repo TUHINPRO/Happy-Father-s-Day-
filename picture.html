@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Happy Father's Day </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="picture.css">
+    <script src="picture.js"></script>
+  </head>
+<body background= "background1.jpg">
+    
+<center>
+    <h3 class="btn btn-success"> Pictures and Video</h3> 
+    <br><br><br>
+    <button class="btn btn-danger back" onclick="NewTab()">Go Back to Home</button>
+    <br><br>
+    <button class="btn btn-info back" onclick="NewTab1()">See a Cool Filter</button>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Had Some Fun</button>
+    <button class="btn btn-warning" data-toggle="modal" data-target="#myModal1">Good Old Memories</button>
+    <br>
+    <button class="btn btn-info" onclick="Start()">Start the Video</button>
+    
+    <div class="modal fade" id="myModal"> 
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>Had Some Fun</h4>
+              <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="Picture_Collage_1.jpg" class="img-responsive collages">
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="myModal"> 
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4> Good Old Memories </h4>
+              <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="Picture_Collage_2.jpg" class="img-responsive collages">
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </center>
+  
+  </body>
+  </html>
